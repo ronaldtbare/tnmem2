@@ -1,0 +1,111 @@
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-masthead.jpg"); */
+  background:  url("../img/mainhouse2web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  .card-img-left {
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(.25rem - 1px);
+    float: left;
+    padding-right: 1em;
+    margin-bottom: -1.25em;
+  }
+
+  .card-img-bottom {
+    color: #fff;
+    height: 20rem;
+    background: url(img/DSC00145.JPG) center no-repeat;
+    background-size: cover;
+  }
+
+  .bgdark {
+    background-color: rgb(47, 47, 47);
+    color: #fff;
+    padding: 50px;
+  }
+
+  body{
+    background: rgb(218, 218, 218);
+  }
+
+ /* Style all font awesome icons
+ .fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  margin: .5rem
+  ;
+}
+
+/* Add a hover effect if you want */
+/* .fa:hover {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+} */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+/* .fa-facebook {
+  background: #000080;
+  color: white;
+} */
+
+/* Twitter */
+/* .fa-linkedin {
+  background: #000080;
+  color: white;
+}  */
+
+/* Twitter */
+/* .fa-instagram {
+  background:  #000080;
+  color: white;
+}  */
+
+/* Twitter */
+/* .fa-twitter {
+  background: #000080;
+  color: white;
+}   */
+
+
+.social {
+  margin: 10px;
+}
+
+.social:hover {
+  /* -webkit-filter: brightness(150%); */
+  filter: brightness(150%);
+}
+
+
+
+
+
+
+
+
